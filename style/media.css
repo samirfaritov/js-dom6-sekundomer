@@ -1,0 +1,421 @@
+@media screen and (max-width: 376px) {
+    .conteiner {
+        /* background-color: red; */
+        overflow: hidden;
+    }
+
+    .conteiner .content {
+        border-color: transparent;
+    }
+
+    .conteiner .content .h1 h1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 80px;
+    }
+
+    .conteiner .but {
+        width: 53px;
+        height: 30px;
+        border-radius: 10px;
+        cursor: pointer;
+        position: absolute;
+        border-color: #fff;
+    }
+
+    .conteiner .content .h1 .box {
+        width: 100px;
+        height: 50px;
+        position: absolute;
+        top: 85px;
+        left: 304px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    .conteiner .content .h1 .box2 {
+        width: 100px;
+        height: 50px;
+        position: absolute;
+        cursor: pointer;
+        top: 179px;
+        border-radius: 10px;
+        left: 302px;
+    }
+
+    .conteiner .content .h1 .box1 {
+        width: 100px;
+        height: 50px;
+        position: absolute;
+        top: 85px;
+        cursor: pointer;
+        left: 410px;
+        border-radius: 10px;
+    }
+
+    .conteiner .content .h1 .box4 {
+        width: 100px;
+        height: 50px;
+        cursor: pointer;
+        position: absolute;
+        top: 179px;
+        border-radius: 10px;
+        left: 410px;
+        /* left: 250px; */
+    }
+    .conteiner .content .h1 .box3 {
+        width: 100px;
+        height: 50px;
+        border: 1px solid transparent;
+        cursor: pointer;
+        position: absolute;
+        top: 85px;
+        left: 516px;
+        border-radius: 10px;
+    }
+
+    .conteiner .content .h1 .box5 {
+        width: 100px;
+        height: 50px;
+        position: absolute;
+        top: 179px;
+        border-radius: 10px;
+        cursor: pointer;
+        left: 521px;
+        /* left: 250px; */
+    }
+
+    .conteiner .content .it .item2 button {
+        width: 150px;
+        height: 60px;
+        border-color: transparent;
+        border-radius: 30px;
+        background-color: #424242;
+        cursor: pointer;
+    }
+
+    .conteiner .content .it .item3 button {
+        width: 100px;
+        height: 50px;
+        border-color: transparent;
+        border-radius: 30px;
+        background-color: red;
+        cursor: pointer;
+    }
+
+    .conteiner .content .it .item button {
+        width: 100px;
+        height: 50px;
+        border-color: transparent;
+        border-radius: 30px;
+        background-color: blue;
+        cursor: pointer;
+    }
+
+    .conteiner .content .it {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        top: 100px;
+        gap: 16px;
+    }
+
+    .conteiner .content .it .item button {
+        width: 100px;
+        height: 50px;
+        border-color: transparent;
+        border-radius: 30px;
+        background-color: blue;
+        cursor: pointer;
+    }
+
+    p {
+        font-size: 24px;
+    }
+
+    .conteiner .content .it .item2 button {
+        width: 100px;
+        height: 50px;
+        border-color: transparent;
+        border-radius: 30px;
+        background-color: #424242;
+        cursor: pointer;
+    }
+
+    .conteiner .content .h1 .box {
+        width: 100px;
+        height: 50px;
+        position: absolute;
+        top: 85px;
+        left: 133px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+
+    .conteiner .content .h1 .box2 {
+        width: 100px;
+        height: 50px;
+        position: absolute;
+        cursor: pointer;
+        top: 179px;
+        border-radius: 10px;
+        left: 134px;
+    }
+
+    .conteiner .content .h1 .box1 {
+        width: 100px;
+        height: 50px;
+        position: absolute;
+        top: 85px;
+        cursor: pointer;
+        left: 239px;
+        border-radius: 10px;
+    }
+
+    .conteiner .content .h1 .box4 {
+        width: 100px;
+        height: 50px;
+        cursor: pointer;
+        position: absolute;
+        top: 179px;
+        border-radius: 10px;
+        left: 240px;
+        /* left: 250px; */
+    }
+
+    .conteiner .content .h1 .box3 {
+        width: 100px;
+        height: 50px;
+        border: 1px solid transparent;
+        cursor: pointer;
+        position: absolute;
+        top: 85px;
+        left: 345px;
+        border-radius: 10px;
+    }
+
+    .conteiner .content .h1 .box5 {
+        width: 100px;
+        height: 50px;
+        position: absolute;
+        top: 179px;
+        border-radius: 10px;
+        cursor: pointer;
+        left: 345px;
+        /* left: 250px; */
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .conteiner {
+        /* background-color: red; */
+        overflow: hidden;
+    }
+
+    .conteiner .content {
+        border-color: transparent;
+    }
+
+    .conteiner .content .h1 h1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 80px;
+    }
+
+    .conteiner .but {
+        width: 53px;
+        height: 30px;
+        border-radius: 10px;
+        cursor: pointer;
+        position: absolute;
+        border-color: #fff;
+    }
+
+    .conteiner .content .h1 .box {
+        width: 100px;
+        height: 50px;
+        position: absolute;
+        top: 85px;
+        left: 304px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    .conteiner .content .h1 .box2 {
+        width: 100px;
+        height: 50px;
+        position: absolute;
+        cursor: pointer;
+        top: 179px;
+        border-radius: 10px;
+        left: 302px;
+    }
+
+    .conteiner .content .h1 .box1 {
+        width: 100px;
+        height: 50px;
+        position: absolute;
+        top: 85px;
+        cursor: pointer;
+        left: 410px;
+        border-radius: 10px;
+    }
+
+    .conteiner .content .h1 .box4 {
+        width: 100px;
+        height: 50px;
+        cursor: pointer;
+        position: absolute;
+        top: 179px;
+        border-radius: 10px;
+        left: 410px;
+        /* left: 250px; */
+    }
+    .conteiner .content .h1 .box3 {
+        width: 100px;
+        height: 50px;
+        border: 1px solid transparent;
+        cursor: pointer;
+        position: absolute;
+        top: 85px;
+        left: 516px;
+        border-radius: 10px;
+    }
+
+    .conteiner .content .h1 .box5 {
+        width: 100px;
+        height: 50px;
+        position: absolute;
+        top: 179px;
+        border-radius: 10px;
+        cursor: pointer;
+        left: 521px;
+        /* left: 250px; */
+    }
+
+    .conteiner .content .it .item2 button {
+        width: 150px;
+        height: 60px;
+        border-color: transparent;
+        border-radius: 30px;
+        background-color: #424242;
+        cursor: pointer;
+    }
+
+    .conteiner .content .it .item3 button {
+        width: 100px;
+        height: 50px;
+        border-color: transparent;
+        border-radius: 30px;
+        background-color: red;
+        cursor: pointer;
+    }
+
+    .conteiner .content .it .item button {
+        width: 100px;
+        height: 50px;
+        border-color: transparent;
+        border-radius: 30px;
+        background-color: blue;
+        cursor: pointer;
+    }
+
+    .conteiner .content .it {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        top: 100px;
+        gap: 16px;
+    }
+
+    .conteiner .content .it .item button {
+        width: 100px;
+        height: 50px;
+        border-color: transparent;
+        border-radius: 30px;
+        background-color: blue;
+        cursor: pointer;
+    }
+
+    p {
+        font-size: 24px;
+    }
+
+    .conteiner .content .it .item2 button {
+        width: 100px;
+        height: 50px;
+        border-color: transparent;
+        border-radius: 30px;
+        background-color: #424242;
+        cursor: pointer;
+    }
+
+    .conteiner .content .h1 .box {
+        width: 100px;
+        height: 50px;
+        position: absolute;
+        top: 85px;
+        left: 133px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+
+    .conteiner .content .h1 .box2 {
+        width: 100px;
+        height: 50px;
+        position: absolute;
+        cursor: pointer;
+        top: 179px;
+        border-radius: 10px;
+        left: 134px;
+    }
+
+    .conteiner .content .h1 .box1 {
+        width: 100px;
+        height: 50px;
+        position: absolute;
+        top: 85px;
+        cursor: pointer;
+        left: 239px;
+        border-radius: 10px;
+    }
+
+    .conteiner .content .h1 .box4 {
+        width: 100px;
+        height: 50px;
+        cursor: pointer;
+        position: absolute;
+        top: 179px;
+        border-radius: 10px;
+        left: 240px;
+        /* left: 250px; */
+    }
+
+    .conteiner .content .h1 .box3 {
+        width: 100px;
+        height: 50px;
+        border: 1px solid transparent;
+        cursor: pointer;
+        position: absolute;
+        top: 85px;
+        left: 345px;
+        border-radius: 10px;
+    }
+
+    .conteiner .content .h1 .box5 {
+        width: 100px;
+        height: 50px;
+        position: absolute;
+        top: 179px;
+        border-radius: 10px;
+        cursor: pointer;
+        left: 345px;
+        /* left: 250px; */
+    }
+}
