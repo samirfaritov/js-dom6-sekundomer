@@ -140,3 +140,8 @@ p {
     font-size: 40px;
     color: #fff;
 }
+
+
+.active {
+    animation: secAnim 1s infinite linear;
+}

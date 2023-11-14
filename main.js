@@ -10,6 +10,10 @@ let box5 = document.querySelector('.box5')
 let item = document.querySelector('.item')
 let item2 = document.querySelector('.item2')
 let item3 = document.querySelector('.item3')
+let two = document.querySelector('.two')
+let four = document.querySelector('.four')
+
+
 
 let interval;
 
@@ -20,12 +24,33 @@ let b = 0
 
 
 item.addEventListener('click', () => {
+
+
+two.classList.add('active')
+    four.classList.add('active')
+    clearInterval(interval)
+
     interval = setInterval(() => {
         mm--
         millisecound.innerHTML = getZero(mm)
 
         if (mm < 0) {
+            s--
+            mm = 99
+            millisecound.innerHTML = getZero(mm)
+            secound.innerHTML = getZero(s)
+        } else if (s < 0) {
+            m--
             s = 59
+            mm = 99
+            minute.innerHTML = getZero(m)
+            secound.innerHTML = getZero(s)
+            millisecound.innerHTML = getZero(mm)
+            
+        } else if (m === 0 && s === 0 && mm === 0) {
+            clearInterval(interval)
+            console.log("stop");
+            
         }
     }, 10)
 })
@@ -46,15 +71,7 @@ item3.addEventListener('click', () => {
     
 })
 
-box.addEventListener('click', () => {
-    setInterval(interval)
-    b++ 
-    if (b <= 10) {
-            minute.innerHTML = `0${m}`
-        } else {
-            minute.innerHTML = m
-    }
-})
+
 
 
 
@@ -80,8 +97,11 @@ box.addEventListener('click', () => {
 })
 box2.addEventListener('click', () => {
     m--
-    if (m == 0) {
-        
+    minute.innerHTML = getZero(m)
+
+    if (m < 0) {
+        m = 0
+        minute.innerHTML = getZero(m)
     }
 })
 box1.addEventListener('click', () => {
@@ -94,7 +114,13 @@ box1.addEventListener('click', () => {
     }
 })
 box4.addEventListener('click', () => {
+        s--
+    secound.innerHTML = getZero(s)
     
+    if (s < 0) {
+        s = 0
+        secound.innerHTML = getZero(s)
+    }
 })
 box3.addEventListener('click', () => {
     mm++
@@ -106,5 +132,16 @@ box3.addEventListener('click', () => {
     }
 })
 box5.addEventListener('click', () => {
+    mm--
+    millisecound.innerHTML = getZero(mm)
     
+    if (mm < 0) {
+        mm = 0
+        millisecound.innerHTML = getZero(mm)
+    }
 })
+
+
+
+
+
