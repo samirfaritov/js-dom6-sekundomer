@@ -36,23 +36,47 @@ two.classList.add('active')
 
         if (mm < 0) {
             s--
-            mm = 99
+            mm = 59
             millisecound.innerHTML = getZero(mm)
             secound.innerHTML = getZero(s)
         } else if (s < 0) {
             m--
             s = 59
-            mm = 99
+            mm = 59
             minute.innerHTML = getZero(m)
             secound.innerHTML = getZero(s)
             millisecound.innerHTML = getZero(mm)
             
         } else if (m === 0 && s === 0 && mm === 0) {
             clearInterval(interval)
-            console.log("stop");
+            var end = Date.now() + (15 * 1000);
             
-        }
-    }, 10)
+            // go Buckeyes!
+            var colors = ['#bb0000', '#ffffff'];
+            
+            (function frame() {
+  confetti({
+      particleCount: 2,
+    angle: 60,
+    spread: 55,
+    origin: { x: 0 },
+    colors: colors
+  });
+  confetti({
+      particleCount: 2,
+      angle: 120,
+      spread: 55,
+      origin: { x: 1 },
+      colors: colors
+    });
+    
+    if (Date.now() < end) {
+        requestAnimationFrame(frame);
+    }
+}());
+console.log("stop");
+}
+}, 1000)
 })
 
 item2.addEventListener('click', () => {

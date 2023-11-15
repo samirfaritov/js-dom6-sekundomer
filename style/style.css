@@ -18,9 +18,10 @@
 .conteiner .content {
     width: 1000px;
     height: 600px;
-    border: 1px solid #000;
+    border: 1px solid transparent;
     padding: 100px 100px;
     position: relative;
+    background-color: #ccc;
 }
 
 .conteiner .content .h1 h1 {
@@ -116,7 +117,7 @@
     height: 70px;
     border-color: transparent;
     border-radius: 30px;
-    background-color: blue;
+    background-color: greenyellow;
     cursor: pointer;
 }
 .conteiner .content .it .item2 button {
@@ -132,7 +133,7 @@
     height: 70px;
     border-color: transparent;
     border-radius: 30px;
-    background-color: red;
+    background-color: brown;
     cursor: pointer;
 }
 
@@ -144,4 +145,19 @@ p {
 
 .active {
     animation: secAnim 1s infinite linear;
+}
+
+.conteiner .content .it .item button:hover {
+    background-color: green;
+    transition: .5s linear;
+}
+.conteiner .content .it .item2 button:hover {
+    background-color: black;
+    transition: .5s linear;
+
+}
+.conteiner .content .it .item3 button:hover {
+    background-color: red;
+    transition: .5s linear;
+
 }
