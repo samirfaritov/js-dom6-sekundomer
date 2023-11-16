@@ -49,21 +49,21 @@ two.classList.add('active')
             
         } else if (m === 0 && s === 0 && mm === 0) {
             clearInterval(interval)
-            var end = Date.now() + (15 * 1000);
+            var end = Date.now() + (15 * 100);
             
             // go Buckeyes!
             var colors = ['#bb0000', '#ffffff'];
             
             (function frame() {
   confetti({
-      particleCount: 2,
+      particleCount: 20,
     angle: 60,
     spread: 55,
     origin: { x: 0 },
     colors: colors
   });
   confetti({
-      particleCount: 2,
+      particleCount: 20,
       angle: 120,
       spread: 55,
       origin: { x: 1 },
